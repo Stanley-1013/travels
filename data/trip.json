@@ -60,7 +60,7 @@
     {"day": 2, "date": "2026-06-29", "theme": "寺院、海岸列車與青沙浦", "areas": ["海東龍宮寺", "松亭", "青沙浦"]},
     {"day": 3, "date": "2026-06-30", "theme": "南浦洞與甘川的彩色山城", "areas": ["甘川文化村", "札嘎其市場", "南浦洞", "龍頭山公園"]},
     {"day": 4, "date": "2026-07-01", "theme": "影島的海風，廣安里的夜", "areas": ["白淺文化村", "影島", "廣安里"]},
-    {"day": 5, "date": "2026-07-02", "theme": "給自己一個不趕路的日子", "areas": ["Centum City", "海雲台"]},
+    {"day": 5, "date": "2026-07-02", "theme": "給自己一個不趕路的日子", "areas": ["Centum City", "海雲台"], "optional_appointment": "皮膚與輪廓醫美諮詢；主訴為痘印、膚色不均／提亮與臉型困擾，由合格醫師診斷後決定是否施作"},
     {"day": 6, "date": "2026-07-03", "theme": "最後一眼海，再回家", "areas": ["海雲台", "釜山金海國際機場"]}
   ],
   "planning_status": {
@@ -68,6 +68,7 @@
     "accommodation": "selected_not_confirmed",
     "daily_itinerary": "draft_complete",
     "airport_transfer": "draft_complete",
-    "website": "initial_version_complete"
+    "website": "photo_and_medical_sections_complete",
+    "medical_aesthetics": "consultation_planned_not_booked"
   }
 }

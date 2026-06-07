@@ -21,3 +21,25 @@ checklist.forEach((item, index) => {
     localStorage.setItem("busan-checklist", JSON.stringify(checklist.map((box) => box.checked)));
   });
 });
+
+const photoInput = document.querySelector("#photo-input");
+const photoWall = document.querySelector("#photo-wall");
+
+photoInput?.addEventListener("change", () => {
+  const files = [...photoInput.files].filter((file) => file.type.startsWith("image/"));
+  if (!files.length) return;
+
+  photoWall.innerHTML = "";
+  files.forEach((file, index) => {
+    const figure = document.createElement("figure");
+    const image = document.createElement("img");
+    const caption = document.createElement("p");
+    figure.className = "photo-memory";
+    image.src = URL.createObjectURL(file);
+    image.alt = `本機預覽照片 ${index + 1}`;
+    image.addEventListener("load", () => URL.revokeObjectURL(image.src), { once: true });
+    caption.textContent = file.name;
+    figure.append(image, caption);
+    photoWall.append(figure);
+  });
+});
