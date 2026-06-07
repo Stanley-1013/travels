@@ -1,0 +1,73 @@
+{
+  "trip_name": "2026June韓國行-釜山",
+  "travelers": {
+    "count": 2,
+    "composition": "一男一女",
+    "relationship": null
+  },
+  "destination": {
+    "country": "韓國",
+    "city": "釜山",
+    "primary_area": "海雲台"
+  },
+  "dates": {
+    "start": "2026-06-28",
+    "end": "2026-07-03",
+    "arrival_home": "2026-07-04T00:15:00+08:00",
+    "days": 6,
+    "nights": 5
+  },
+  "flights": {
+    "outbound": {
+      "date": "2026-06-28",
+      "flight_number": "7C6164",
+      "airline_zh": "濟州航空",
+      "airline_en": "Jeju Air",
+      "departure_airport": "TPE",
+      "departure_airport_name": "桃園國際機場",
+      "departure_time": "02:50",
+      "arrival_airport": "PUS",
+      "arrival_airport_name": "釜山金海國際機場",
+      "arrival_time": "06:10",
+      "booking_status": "selected_not_confirmed"
+    },
+    "return": {
+      "date": "2026-07-03",
+      "flight_number": "ZE987",
+      "airline_zh": "易斯達航空",
+      "airline_en": "Eastar Jet",
+      "departure_airport": "PUS",
+      "departure_airport_name": "釜山金海國際機場",
+      "departure_time": "22:10",
+      "arrival_airport": "TPE",
+      "arrival_airport_name": "桃園國際機場",
+      "arrival_datetime": "2026-07-04T00:15:00+08:00",
+      "booking_status": "selected_not_confirmed"
+    }
+  },
+  "accommodation": {
+    "name": "Aank Resort & Spa Busan Haeundae",
+    "name_zh": "釜山海雲台 Aank 渡假村及水療",
+    "address": "56, Gunam-ro 18beon-gil, Haeundae-gu, Busan, South Korea",
+    "area": "海雲台",
+    "check_in": "2026-06-28",
+    "check_out": "2026-07-03",
+    "nights": 5,
+    "booking_status": "selected_not_confirmed"
+  },
+  "itinerary": [
+    {"day": 1, "date": "2026-06-28", "theme": "抵達海雲台，先聽海", "areas": ["海雲台海灘", "海雲台市場"]},
+    {"day": 2, "date": "2026-06-29", "theme": "寺院、海岸列車與青沙浦", "areas": ["海東龍宮寺", "松亭", "青沙浦"]},
+    {"day": 3, "date": "2026-06-30", "theme": "南浦洞與甘川的彩色山城", "areas": ["甘川文化村", "札嘎其市場", "南浦洞", "龍頭山公園"]},
+    {"day": 4, "date": "2026-07-01", "theme": "影島的海風，廣安里的夜", "areas": ["白淺文化村", "影島", "廣安里"]},
+    {"day": 5, "date": "2026-07-02", "theme": "給自己一個不趕路的日子", "areas": ["Centum City", "海雲台"]},
+    {"day": 6, "date": "2026-07-03", "theme": "最後一眼海，再回家", "areas": ["海雲台", "釜山金海國際機場"]}
+  ],
+  "planning_status": {
+    "flights": "selected_not_confirmed",
+    "accommodation": "selected_not_confirmed",
+    "daily_itinerary": "draft_complete",
+    "airport_transfer": "draft_complete",
+    "website": "initial_version_complete"
+  }
+}
