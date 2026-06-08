@@ -1,3 +1,25 @@
+const navToggle = document.querySelector("#nav-toggle");
+const navLinks = document.querySelector("#nav-links");
+
+const closeNav = () => {
+  navToggle?.setAttribute("aria-expanded", "false");
+  navLinks?.classList.remove("open");
+};
+
+navToggle?.addEventListener("click", () => {
+  const willOpen = navToggle.getAttribute("aria-expanded") !== "true";
+  navToggle.setAttribute("aria-expanded", String(willOpen));
+  navLinks?.classList.toggle("open", willOpen);
+});
+
+navLinks?.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", closeNav);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeNav();
+});
+
 const days = document.querySelectorAll(".day");
 
 days.forEach((day) => {
